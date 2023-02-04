@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <main>
+      <!-- logo and three text links for the top of the page -->
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://i.pinimg.com/originals/93/b4/3c/93b43cbf86277663f0e48a1e427e7d51.jpg"
+          alt="ps4-logo"
+        />
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#Features">Features</a></li>
+            <li><a class="nav-link" href="#video">PS4 Launch Video</a></li>
+            <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- End of logo and three text links  -->
+
+      <!-- form element, with an input field with id="email" where you can enter an email address   -->
+      <section id="form-section">
+        <h1>Hot New PS4 Game Releases</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required=""
+          />
+          <input id="submit" type="submit" value="Get Started" />
+        </form>
+      </section>
+      <!-- End of form element -->
+
+      <!-- Features [Premium Quality - Free Return - Warranty] -->
+      <section id="Features">
+        <div class="features-div">
+          <h3>Premium Quality</h3>
+          <p>
+            The PlayStation 4 is a powerful gaming console, in addition to being
+            a media hub for your living room. It can play Blu-ray discs, stream
+            media from your home network, and access apps like Netflix, Hulu
+            Plus, and YouTube. The PS4 also has an extensive library of
+            blockbuster game titles, many of which are exclusive to the
+            platform.
+          </p>
+        </div>
+        <div class="features-div">
+          <h3>Free Return</h3>
+          <p>
+            We make certain that you receive your PS4 as soon as we finish
+            manufacturing it. In addition, we provide free returns if you're not
+            happy.
+          </p>
+        </div>
+        <div class="features-div">
+          <h3>Warranty</h3>
+          <p>
+            Sony Interactive Entertainment LLC ("SIE") warrants to the original
+            purchaser (“you”) that the PS4™ hardware, which includes components
+            contained in the retail box with this hardware (“Product”), will be
+            free from material defects in material and workmanship for a period
+            of one year from the original date of purchase (the "Warranty
+            Period").
+          </p>
+        </div>
+      </section>
+      <!-- End of Features [Premium Quality - Free Return - Warranty -->
+
+      <!-- The PS4 Launch Video -->
+      <section id="video-section">
+        <div>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Jw8HCFZkBds"
+            title="The PS4 Launch Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!-- End of The PS4 Launch Video    -->
+
+      <!-- Pricing section-->
+      <section id="Pricing">
+        <div class="product">
+          <h4>PS4 Original</h4>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/71/Sony-PlayStation-4-PS4-wDualShock-4.jpg"
+            alt="PS4-Original"
+          />
+          <p>$160</p>
+          <ol>
+            <li>First launched in 2013</li>
+            <li>500GB hard drive</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product">
+          <h4>PS4 Slim</h4>
+          <img
+            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4GwCSvj03-wHD8wZjm6eLJYEdS5mM6g3JRl8vHFcjMJ4UXKpoYteAKMuESheD_09T9m3momzIh_6_h3go3BytcjL4qqbcQBOOUrySkYLbkhp2CA8J5m3sCw&usqp=CAE"
+            alt="PS4-Slim"
+          />
+          <p>$220</p>
+          <ol>
+            <li>launched in two versions – a 500GB and a 1TB</li>
+            <li>Sold nearly double both of the other versions</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product">
+          <h4>PS4 Slim</h4>
+          <img
+            src="https://commondatastorage.googleapis.com/images.pricecharting.com/AMIfv9517CeLzgCdiwmmHOYTNwN_TOM0xAFO5odPhlp_wgUpjoeGcMLeji9YA8eMdOgq31RV6Z_AUKmEz0BqsyGsen2tBQXOIEm1WuZgtoNJ6nCUk-1YYtsfCNUIAGeuNbXrcMul6qivtSeAoSp5m9QN26_wD_CS4w/240.jpg"
+            alt="PS4-Pro"
+          />
+          <p>$280</p>
+          <ol>
+            <li>1TB hard drive</li>
+            <li>supports 4k and also has a better processor inside</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <!-- End of Pricing section -->
+      <!-- footer -->
+      <footer>
+        <span>This is a trial project for a Product Land Webpage - 2023</span>
+      </footer>
+      <!-- End of footer -->
+    </main>
+  </body>
+</html>

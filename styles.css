@@ -1,0 +1,93 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+main {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 10px;
+  margin: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  color: white;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-size: larger;
+  background-color: rgb(7, 46, 173);
+  color: white;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid black;
+  padding: 5px;
+}
+
+#header-img {
+  width: 200px;
+}
+
+#form-section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Features {
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 13px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#video-section {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#Pricing {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+#Pricing img {
+  width: 150px;
+}
+
+.product {
+  border: 1px solid black;
+  width: 33%;
+  padding: 30px;
+}
+
+.btn {
+  background-color: burlywood;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
